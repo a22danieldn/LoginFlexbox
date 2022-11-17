@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A22DanielDN : Login (Flexbox)</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="flex">
+    <fieldset class="frame-login">
+        <legend><h1>Login</h1></legend>
+        <form action="register.php" method="get">
+            <label for="email">Email address</label>
+            <input type="text" id="email" name="Enter email: " placeholder="Enter email" maxlength=50 size="50" required>
+            <p>We'll never share your email with anyone else</p>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="Password: " placeholder="Password" maxlength=10 size="50" required>
+
+            <input type="checkbox" id="remember" name="Remember" value="Selected">
+            <label for="remember">Remember</label>
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </fieldset>
+    </div>
+</body>
+</html>
